@@ -11,9 +11,11 @@
         <module>e-commerce-common</module>
         <module>e-commerce-mvc-config</module>
         <module>e-commerce-alibaba-nacos-client</module>
+        <module>e-commerce-admin</module>
+        <module>e-commerce-authority-center</module>
     </modules>
 
-    <!--    <modules>-->
+<!--    <modules>-->
 <!--        <module>e-commerce-common</module>-->
 <!--        <module>e-commerce-mvc-config</module>-->
 <!--        <module>e-commerce-alibaba-nacos-client</module>-->
@@ -31,7 +33,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.3.RELEASE</version>
+        <version>2.3.1.RELEASE</version>
     </parent>
 
     <properties>
@@ -54,7 +56,6 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- 健康检查-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
@@ -62,7 +63,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.12.0</version>
+            <version>3.11</version>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
@@ -72,30 +73,30 @@
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
-            <version>5.7.22</version>
+            <version>5.6.0</version>
         </dependency>
         <!-- 引入jwt-->
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-api</artifactId>
-            <version>0.11.2</version>
+            <version>0.10.5</version>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-impl</artifactId>
-            <version>0.11.2</version>
+            <version>0.10.5</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt-jackson</artifactId>
-            <version>0.11.2</version>
+            <version>0.10.5</version>
             <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.80</version>
+            <version>1.2.47</version>
         </dependency>
     </dependencies>
 

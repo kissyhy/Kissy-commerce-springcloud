@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Kissy-commerce-springcloud.iml" filepath="$PROJECT_DIR$/.idea/Kissy-commerce-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-commerce-admin/e-commerce-admin.iml" filepath="$PROJECT_DIR$/e-commerce-admin/e-commerce-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-commerce-alibaba-nacos-client/e-commerce-alibaba-nacos-client.iml" filepath="$PROJECT_DIR$/e-commerce-alibaba-nacos-client/e-commerce-alibaba-nacos-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-commerce-authority-center/e-commerce-authority-center.iml" filepath="$PROJECT_DIR$/e-commerce-authority-center/e-commerce-authority-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-commerce-common/e-commerce-common.iml" filepath="$PROJECT_DIR$/e-commerce-common/e-commerce-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-commerce-mvc-config/e-commerce-mvc-config.iml" filepath="$PROJECT_DIR$/e-commerce-mvc-config/e-commerce-mvc-config.iml" />
+    </modules>
+  </component>
+</project>
