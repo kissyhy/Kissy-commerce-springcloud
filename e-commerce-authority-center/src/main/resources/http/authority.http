@@ -1,0 +1,17 @@
+### 获取token -- 登录功能实现
+POST http://localhost:7000/ecommerce-authority-center/authority/token
+Content-Type: application/json
+
+{
+  "username": "kissy2",
+  "password": "25d55ad283aa400af464c76d713c07ad"
+}
+
+### 注册用户并返回token -- 注册功能实现
+POST http://localhost:7000/ecommerce-authority-center/authority/register
+Content-Type: application/json
+
+{
+  "username": "Sinister_yang",
+  "password": "25d55ad283aa400af464c76d713c07ad"
+}
