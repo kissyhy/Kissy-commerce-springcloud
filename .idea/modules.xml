@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/e-commerce-alibaba-nacos-client/e-commerce-alibaba-nacos-client.iml" filepath="$PROJECT_DIR$/e-commerce-alibaba-nacos-client/e-commerce-alibaba-nacos-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/e-commerce-authority-center/e-commerce-authority-center.iml" filepath="$PROJECT_DIR$/e-commerce-authority-center/e-commerce-authority-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/e-commerce-common/e-commerce-common.iml" filepath="$PROJECT_DIR$/e-commerce-common/e-commerce-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-commerce-gateway/e-commerce-gateway.iml" filepath="$PROJECT_DIR$/e-commerce-gateway/e-commerce-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/e-commerce-mvc-config/e-commerce-mvc-config.iml" filepath="$PROJECT_DIR$/e-commerce-mvc-config/e-commerce-mvc-config.iml" />
     </modules>
   </component>
