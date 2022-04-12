@@ -36,12 +36,12 @@ spring:
     allow-bean-definition-overriding: true  # 因为将来会引入很多依赖, 难免有重名的 bean
 
 # 这个地方独立配置, 是网关的数据, 代码 GatewayConfig.java 中读取被监听
-#nacos:
-#  gateway:
-#    route:
-#      config:
-#        data-id: e-commerce-gateway-router
-#        group: e-commerce
+nacos:
+  gateway:
+    route:
+      config:
+        data-id: e-commerce-gateway-router
+        group: e-commerce
 
 # 暴露端点
 management:
