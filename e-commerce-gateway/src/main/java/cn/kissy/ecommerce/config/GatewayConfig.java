@@ -1,6 +1,7 @@
 package cn.kissy.ecommerce.config;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -54,7 +55,7 @@ public class GatewayConfig {
     }
 
     @Value("${nacos.gateway.route.config.group}")
-    public static void setNacosRouteGroup(String nacosRouteGroup) {
+    public void setNacosRouteGroup(String nacosRouteGroup) {
         NACOS_ROUTE_GROUP = nacosRouteGroup;
     }
 }
