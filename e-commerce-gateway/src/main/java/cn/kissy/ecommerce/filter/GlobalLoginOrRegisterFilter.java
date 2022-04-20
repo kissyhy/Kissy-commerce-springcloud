@@ -138,7 +138,7 @@ public class GlobalLoginOrRegisterFilter implements GlobalFilter, Ordered {
         String requestUrl = String.format(uriFormat, serviceInstance.getHost(), serviceInstance.getPort());
         // 反序列化解析成 body
         UsernameAndPassword requestBody = JSON.parseObject(parseBodyFromRequest(request), UsernameAndPassword.class);
-        log.info("login request url and body: [{}], [{}]", requestUrl, JSON.toJSONString(requestBody));
+        log.info("login request url and body: [{}], [{}]", requestUrl, JSONUtil.toJsonStr(requestBody));
 
         // 像授权中心发送请求
         HttpHeaders headers = new HttpHeaders();
