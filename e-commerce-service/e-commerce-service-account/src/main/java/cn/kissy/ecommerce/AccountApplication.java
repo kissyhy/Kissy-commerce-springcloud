@@ -7,7 +7,8 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 /**
  * 用户账户微服务启动入口
- * swagger: 127.0.0.1:8003/ecommerce-account-service/doc.html
+ * swagger美化地址: 127.0.0.1:8003/ecommerce-service-account/doc.html
+ * swagger原生地址: 127.0.0.1:8003/ecommerce-service-account/swagger-ui.html
  * @ClassName AccountApplication
  * @Author kingdee
  * @Date 2022/4/19

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/e-commerce-gateway/e-commerce-gateway.iml" filepath="$PROJECT_DIR$/e-commerce-gateway/e-commerce-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/e-commerce-mvc-config/e-commerce-mvc-config.iml" filepath="$PROJECT_DIR$/e-commerce-mvc-config/e-commerce-mvc-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/e-commerce-service/e-commerce-service.iml" filepath="$PROJECT_DIR$/e-commerce-service/e-commerce-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/e-commerce-service/e-commerce-service-account/e-commerce-service-account.iml" filepath="$PROJECT_DIR$/e-commerce-service/e-commerce-service-account/e-commerce-service-account.iml" />
       <module fileurl="file://$PROJECT_DIR$/e-commerce-service/e-commerce-service-config/e-commerce-service-config.iml" filepath="$PROJECT_DIR$/e-commerce-service/e-commerce-service-config/e-commerce-service-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/e-commerce-service/e-commerce-service-sdk/e-commerce-service-sdk.iml" filepath="$PROJECT_DIR$/e-commerce-service/e-commerce-service-sdk/e-commerce-service-sdk.iml" />
     </modules>

@@ -14,8 +14,9 @@
 
     <modules>
         <module>e-commerce-service-config</module>
-        <module>e-commerce-account-service</module>
+        <module>e-commerce-service-account</module>
         <module>e-commerce-service-sdk</module>
+        <module>e-commerce-service-account</module>
     </modules>
 
     <packaging>pom</packaging>
