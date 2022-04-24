@@ -24,7 +24,7 @@ public class GoodsCategoryConverter implements AttributeConverter<GoodsCategory,
 
     /**
      * 还原数据表中的字段值到Java数据类型
-     * @param code
+     * @param code K-V的键
      * @return
      */
     @Override
