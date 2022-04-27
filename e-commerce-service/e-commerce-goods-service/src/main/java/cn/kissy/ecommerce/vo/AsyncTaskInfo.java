@@ -1,5 +1,6 @@
 package cn.kissy.ecommerce.vo;
 
+import cn.kissy.ecommerce.constant.AsyncTaskStatusEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,6 +22,11 @@ public class AsyncTaskInfo {
      * 异步任务id
      */
     private String taskId;
+
+    /**
+     * 异步任务执行状态
+     */
+    private AsyncTaskStatusEnum status;
 
     /**
      * 异步任务开始时间
